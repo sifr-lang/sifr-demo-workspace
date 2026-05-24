@@ -7,3 +7,6 @@ sifr-version = ">=0.3,<0.4"
 native = ["backend-utils"]
 build-scripts = []
 proc-macros = []
+
+[scripts]
+status-smoke = { command = "run", args = ["status"] }
